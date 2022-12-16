@@ -2,7 +2,7 @@ import socket
 
 # next create a socket object
 s = socket.socket()
-ip = "192.168.1.7"  # change the IP
+ip = "10.0.2.15"  # change the IP
 port = 1234  # change the port
 
 s.bind((ip, port))
